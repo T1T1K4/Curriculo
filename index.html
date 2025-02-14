@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="index.html">
+                    <img style="width: 70px; height: auto;" src="img/T1T1K4_elden.jpeg">
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#" onclick="scrollToSectionSobre()">Sobre</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <div class="btn-contato">
+                        <button onclick="scrollToSectionContato()">Contato</button>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="hidden">
+        <h2>Carlos Eduardo Costa de Mello</h2>
+        <h3>Paraguaçu Paulista, Rua Conselheiro Rodrigues, 128A</h3>
+        <h3>Telefone: (18) 99781-8571</h3>
+        <h3>E-mail: slc08011982@gmail.com</h3>
+    </section>
+
+    <section id="Sobre" class="hidden">
+        <h2>Objetivo Profissional</h2>
+
+        <h3>
+            Busco uma oportunidade para aplicar minhas habilidades em atendimento
+            ao público, suporte administrativo e tecnologia. Tenho experiência em
+            recepção, organização de documentos e assistência ao cliente, além de
+            conhecimentos em pacote Office e manutenção de computadores. Possuo um
+            leve conhecimento em linguagens de programação como PHP, HTML,
+            JavaScript, C# e Python. Sou responsável, dedicado e estou sempre
+            disposto a aprender e contribuir para o crescimento da empresa.
+        </h3>
+
+
+    </section>
+
+    <section class="hidden">
+        <h2>Experiência Profissional</h3>
+
+
+
+
+        <h3>
+            Função: Atendimento ao Público e Escrivão
+        </h3>
+
+        <h3>
+            Período: 11 meses
+        </h3>
+
+        <h3>
+            Responsabiliadades: Responsável por adicionar certidões de óbito no sistema da prefeitura.
+        </h3>
+
+        </div>
+
+        <h2>Santa Casa de Misericórdia</h2>
+
+
+        <h3>
+            Função: Recepcionista
+        </h3>
+
+        <h3>
+            Período: 10 meses
+        </h3>
+
+        <h3>
+            Responsabiliadades: Atendimento ao público e apoio nas demandas administrativas do setor.
+        </h3>
+
+
+
+        </div>
+    </section>
+
+
+    <section class="hidden">
+        <img src="img/T1T1K4_elden.jpeg" alt="" />
+    </section>
+
+    <section id="contato" class="hidden">
+        <h2>Contatos</h2>
+
+        <div class="logos">
+            <div class="hidden">
+                <a href="https://www.linkedin.com/in/carlos-eduardo-893264298/">
+                    <img class="avatar" src="img/linkdin.png" alt="" />
+                </a>
+            </div>
+
+            <div class="hidden">
+                <a href="https://www.facebook.com/profile.php?id=61554070443580">
+                    <img class="avatar" src="img/logo_facebook.png" alt="" />
+                </a>
+            </div>
+
+            <div class="hidden">
+                <a href="https://github.com/T1T1K4">
+                    <img class="avatar" src="img/github.png" alt="" />
+                </a>
+            </div>
+
+            <div class="hidden">
+                <a href="https://www.instagram.com/cdm_m12/">
+                    <img class="avatar" src="img/instagram.png" alt="" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer >
+        <div >
+        
+            <hr>
+            <div class="">
+                <p>2024 © Curriculo.</p>
+                
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+<script src="scripts.js"></script>
+
+    <script>
+        function scrollToSectionContato() {
+            document.getElementById("contato").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+
+        function scrollToSectionSobre() {
+            document.getElementById("Sobre").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    </script>
+
+
+
+</html>
